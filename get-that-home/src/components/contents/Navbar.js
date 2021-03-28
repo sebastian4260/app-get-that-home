@@ -12,13 +12,20 @@ const StyledUl = styled.ul`
   width:100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:space-around;
   align-items: center;
   list-style-type: none;
   background: #FFFFFF;
   padding: 0px;
   margin: auto;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+`;
+
+const Logo = styled.div`
+  position: static;
+  width: 136px;
+  height: 40px; 
+  background-image: url(https://res.cloudinary.com/diqfeqkdb/image/upload/v1616920156/Logo_vbb18w.png);
 `;
 
 const ListItem = styled.li`
@@ -37,7 +44,7 @@ const ListItem = styled.li`
 const sections = ["home", "find", "signup", "login"];
 const buttons = {
   find: <StyledFindAHomeButton className="ri-find-2-line">Find a Home</StyledFindAHomeButton>,
-  home: <i className="ri-home-2-line">Home</i>,
+  home: <Logo className="ri-home-line"></Logo>,
   signup: <StyledJoinButton className="ri-signup-line">Join</StyledJoinButton>,
   login: <StyledLoginButton className="ri-login-line">Login</StyledLoginButton>,
 };
