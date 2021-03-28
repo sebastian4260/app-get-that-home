@@ -6,6 +6,12 @@ import StyledLoginButton from "../UI/buttons/StyledLoginButton";
 const StyledDiv = styled.div`
   position:absolute;
   height:600px;
+  width:100%;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
   background-image: url(https://res.cloudinary.com/diqfeqkdb/image/upload/v1616917221/Group_jbtqpb.png);
 `;
 
@@ -57,6 +63,7 @@ const DivSearch = styled.div`
   background: #FFFFFF;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
+  top: 284px;
 `;
 
 
@@ -101,9 +108,18 @@ function StyledSearch (){
 
       <DivSearch>
       
-        <Inputdiv>I’m Looking for</Inputdiv>
-        <Inputdiv>I want To</Inputdiv>
-        <Inputdiv>Where</Inputdiv>
+        <Inputdiv>
+          <p>I’m Looking for</p>
+          <input></input>
+        </Inputdiv>
+        <Inputdiv>
+        <p>I want To</p>
+        <input></input>
+        </Inputdiv>
+        <Inputdiv>
+        <p>Where</p>
+        <input></input>
+        </Inputdiv>
         <StyledLoginButton>Search</StyledLoginButton>
       
       </DivSearch>
