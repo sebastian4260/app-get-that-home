@@ -3,8 +3,8 @@ import styled from "@emotion/styled";
 const StyledLoginButton = styled.button`
   display: flex;
   flex-direction: row;
-  width: 112px;
-  height: 40px;
+  width: auto;
+  height: auto;
   align-items: center;
   padding: 8px 16px;
   background: #F48FB1;
