@@ -5,7 +5,7 @@ import Template from "../pages/template";
 
 
 
-function Login (){
+function Find (){
   
 
   return(
@@ -24,4 +24,4 @@ function Login (){
   };
        
 
-export default Login;
+export default Find;
