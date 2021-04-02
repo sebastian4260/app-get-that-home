@@ -7,7 +7,7 @@ import StyledLoginButton from "../UI/buttons/StyledLoginButton"
 
 
 const StyledUl = styled.ul`
-  position: absolute;
+  position: fixed;
   height:72px;
   width:100%;
   display: flex;
