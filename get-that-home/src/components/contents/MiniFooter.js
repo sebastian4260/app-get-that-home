@@ -13,9 +13,9 @@ const StyledDiv = styled.div`
   background: #F5F5F6;
   bottom: 0;
   padding-top: 16px;
+  padding-bottom: 16px;
   margin-top: auto;
   left: 0;
-  bottom: 0;
   
   
 
@@ -58,10 +58,21 @@ align-items: center;
 gap: 0px 220px;
 `;
 
+const PinkLine = styled.div`
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+background: #BF5F82;
+height: 1px;
+width: 100%;
+`;
+
 
 function MiniFooter (){
   return(
     <StyledDiv>
+      <PinkLine/>
      
      <TextDivColumn>
        <TextRow>
