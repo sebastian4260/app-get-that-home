@@ -4,10 +4,10 @@ import styled from "@emotion/styled";
 import StyledLoginButton from "../UI/buttons/StyledLoginButton";
 
 const StyledDiv = styled.div`
-  position:absolute;
+  position: absolute;
   height:600px;
   width:100%;
-  top: 80px;
+  top: 75px;
   display: flex;
   flex-direction: column;
   align-items: center;

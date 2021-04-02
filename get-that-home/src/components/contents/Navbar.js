@@ -8,6 +8,8 @@ import StyledLoginButton from "../UI/buttons/StyledLoginButton"
 
 const StyledUl = styled.ul`
   position: fixed;
+  top: 0px;
+  z-index: 999;
   height:72px;
   width:100%;
   display: flex;
@@ -22,7 +24,7 @@ const StyledUl = styled.ul`
 `;
 
 const Logo = styled.div`
-  position: static;
+  position: absolute;
   width: 136px;
   height: 40px; 
   background-image: url(https://res.cloudinary.com/diqfeqkdb/image/upload/v1616920156/Logo_vbb18w.png);
@@ -30,6 +32,7 @@ const Logo = styled.div`
 
 const ListItem = styled.li`
   & > a {
+    position: relative;
     display: flex;
     align-items: center;
     text-decoration: none;
