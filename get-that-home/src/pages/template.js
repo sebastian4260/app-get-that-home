@@ -4,11 +4,13 @@ import Navbar from "../components/contents/Navbar"
 import { css } from "@emotion/react";
 
 const StyledPage = styled.div`
+  position:relative;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  
 `;
 
 const Content = styled.div`
