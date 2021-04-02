@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import PropertyCard from "../components/contents/PropertyCard";
 import StyledSearch from "../components/contents/StyledSearch";
 import Template from "../pages/template";
-
+import StyledProperties from "../components/contents/StyledProperties";
 
 const ListProperties = styled.div`
   display: flex;
@@ -25,6 +25,7 @@ function Home (){
       <Template>
 
           <StyledSearch/>
+          <StyledProperties></StyledProperties>
             
           
 
