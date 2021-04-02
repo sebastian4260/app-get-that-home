@@ -14,8 +14,6 @@ import MiniFooter from "../components/contents/MiniFooter";
 
 
 
-
-
 function Home (){
   
 
