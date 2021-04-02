@@ -1,6 +1,5 @@
 /** @jsxImportSource @emotion/react */
 import styled from "@emotion/styled";
-import { css } from "@emotion/react";
 
 const StyledCard = styled.div`
   display: flex;
@@ -20,11 +19,11 @@ const CardImage = styled.img`
   top: 0px;
   width: 300px;
   height: 200px;
+  background-image: url(https://res.cloudinary.com/diqfeqkdb/image/upload/v1616917124/property_vczzby.png);
 `
 const ImgDiv = styled.div`
   height: 200px;
 `;
-
 
 const CardPrice = styled.h2`
   font-family: Montserrat;
