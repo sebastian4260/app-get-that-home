@@ -55,10 +55,21 @@ align-items: center;
 gap: 0px 220px;
 `;
 
+const PinkLine = styled.div`
+position: fixed;
+left: 0px;
+right: 0px;
+top: 0px;
+background: #BF5F82;
+height: 1px;
+width: 100%;
+`;
+
 
 function MiniFooter (){
   return(
     <StyledDiv>
+      <PinkLine/>
      
      <TextDivColumn>
        <TextRow>

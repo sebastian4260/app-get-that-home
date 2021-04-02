@@ -12,6 +12,7 @@ const StyledCard = styled.div`
   border: none;
   margin: 0px 32px;
   position: static;
+  
 `;
 
 const CardImage = styled.img`
@@ -19,11 +20,14 @@ const CardImage = styled.img`
   width: 180px;
   height: 180px;
   background-image: url(https://res.cloudinary.com/diqfeqkdb/image/upload/v1617339507/Ellipse_4_dkprkh.png);
-  
+ 
 `
 const ImgDiv = styled.div`
   height: 180px;
   background: #E1E2E1;
+  border-radius: 50px;
+  
+  
 `;
 
 const MemberName = styled.h2`
