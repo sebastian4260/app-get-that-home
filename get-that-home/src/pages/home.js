@@ -10,14 +10,8 @@ import Template from "../pages/template";
 import StyledProperties from "../components/contents/StyledProperties";
 import StyledCreateAccountSection from "../components/contents/StyledCreateAccountSection";
 import StyledTeamMembersSection from "../components/contents/StyledMeetTheTeamSection";
+import MiniFooter from "../components/contents/MiniFooter";
 
-const ListProperties = styled.div`
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
-  overflow: auto;
-`;
 
 
 function Home (){
@@ -30,12 +24,13 @@ function Home (){
           <StyledProperties></StyledProperties>
           <StyledCreateAccountSection></StyledCreateAccountSection>
           <StyledTeamMembersSection></StyledTeamMembersSection>
+          <MiniFooter></MiniFooter>
             
           
 
       </Template>
 
-      
+
  
 
           )
