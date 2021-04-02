@@ -8,6 +8,7 @@ import PropertyCard from "../components/contents/PropertyCard";
 import StyledSearch from "../components/contents/StyledSearch";
 import Template from "../pages/template";
 import StyledProperties from "../components/contents/StyledProperties";
+import StyledCreateAccountSection from "../components/contents/StyledCreateAccountSection";
 
 const ListProperties = styled.div`
   display: flex;
@@ -26,6 +27,7 @@ function Home (){
 
           <StyledSearch/>
           <StyledProperties></StyledProperties>
+          <StyledCreateAccountSection></StyledCreateAccountSection>
             
           
 
