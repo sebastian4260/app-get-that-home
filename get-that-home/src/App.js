@@ -14,10 +14,11 @@ function App() {
     <Router>
       <div
         css={css`
-        
+
+          position:relative;
           overflow: auto;
           margin: auto;
-          height: 100vh;
+          min-height: 100vh;
           width: 100%;
           background: #F6F6F9;
 
