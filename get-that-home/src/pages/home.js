@@ -9,6 +9,7 @@ import StyledSearch from "../components/contents/StyledSearch";
 import Template from "../pages/template";
 import StyledProperties from "../components/contents/StyledProperties";
 import StyledCreateAccountSection from "../components/contents/StyledCreateAccountSection";
+import StyledTeamMembersSection from "../components/contents/StyledMeetTheTeamSection";
 
 const ListProperties = styled.div`
   display: flex;
@@ -28,6 +29,7 @@ function Home (){
           <StyledSearch/>
           <StyledProperties></StyledProperties>
           <StyledCreateAccountSection></StyledCreateAccountSection>
+          <StyledTeamMembersSection></StyledTeamMembersSection>
             
           
 
