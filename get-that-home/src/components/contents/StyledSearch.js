@@ -60,6 +60,7 @@ const DivSearch = styled.div`
   position: absolute;
   width: 800px;
   height: 72px;
+  gap:8px;
   background: #FFFFFF;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
