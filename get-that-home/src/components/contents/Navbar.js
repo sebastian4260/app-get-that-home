@@ -23,6 +23,17 @@ const StyledUl = styled.ul`
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 `;
 
+const StyledRightDiv = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  width: 414px;
+  height: 40px;
+  right: 0px;
+`;
+
 const Logo = styled.div`
   position: absolute;
   width: 136px;
@@ -62,8 +73,8 @@ export default function Navbar() {
   };
 
   return (
-    <StyledUl>
-      
+    
+    <StyledUl>    
       {sections.map((section) => (
         <ListItem key={section}>
           <Link
@@ -74,7 +85,7 @@ export default function Navbar() {
           </Link>
         </ListItem>
       ))}
-      
+
     </StyledUl>
   );
 }
