@@ -7,7 +7,7 @@ import Login from "./pages/login";
 import Signup from "./pages/signup";
 import Profile from "./pages/profile";
 import Find from "./pages/find";
-
+import SignupForm from "./pages/signupForm";
 
 function App() {
   return (
@@ -30,6 +30,7 @@ function App() {
         <Route path="/profile" component={Profile} />
         <Route path="/signup" component={Signup} />
         <Route path="/find" component={Find} />
+        <Route path="/signupform" component={SignupForm} />
       </div>  
     </Router>
   );
