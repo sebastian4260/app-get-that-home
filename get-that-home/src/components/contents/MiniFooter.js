@@ -4,7 +4,7 @@ import styled from "@emotion/styled";
 
 const StyledDiv = styled.div`
   position: fixed;
-  height: 72px;
+  height: 56px;
   width:100%;
   display: flex;
   flex-direction: row;
