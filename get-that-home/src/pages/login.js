@@ -20,7 +20,7 @@ const LoginDiv = styled.div`
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   top: 96px;
-  left: 38%;
+  left: 37.5%;
 `;
 
 export default function Login() {
